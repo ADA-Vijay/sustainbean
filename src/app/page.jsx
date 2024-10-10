@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
-import Articles from "@/components/Articles/Articles";
+import Articles from "@/components/Articles/articles";
 export default function Home() {
   return (
     <>
