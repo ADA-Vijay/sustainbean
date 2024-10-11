@@ -54,6 +54,43 @@ export default function Home() {
         </div>
       </div>
 
+      <div className=" p-5 m-2">
+        <div className="card-body align-items-center">
+          <h4 className="d-flex justify-content-center">INITIATIVES</h4>
+          <p>1. Community Empowerment :</p>
+          <ul>
+            <li>
+              Farmers' Cooperative Initiatives: Establish and support
+              cooperatives to help farmers pool resources, share knowledge, and
+              access better markets.
+            </li>
+            <li>
+              Community Skill Development Centers: Set up centers offering
+              vocational training in carpentry, tailoring, digital skills, etc.,
+              to empower community members with employable skills.
+            </li>
+            <li>
+              Local Leadership Development: Create leadership training programs
+              for community members to develop local leaders who can drive
+              development projects and advocate for their communities.
+            </li>
+            <li>
+              Yoga and Mindfulness Workshops: Offer yoga and mindfulness
+              workshops to promote mental and physical well-being within the
+              community.
+            </li>
+            <li>
+              Art and Music Therapy: Introduce art and music therapy programs to
+              support mental health and foster creativity and self-expression.
+            </li>
+            <li>
+               Recreational Facilities: Develop recreational facilities such as
+              sports centers, parks, and community gardens to encourage physical
+              activity and social interaction.
+            </li>
+          </ul>
+        </div>
+      </div>
       <Articles />
       <div
         className="featured-section overlay-color-2 impactStories"

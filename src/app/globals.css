@@ -236,3 +236,15 @@ a.link-underline {
 a:hover {
   text-decoration: none !important;
 }
+
+.centered-list {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  text-align: center; /* Center the text */
+}
+
+.centered-list li {
+  margin-bottom: 10px; /* Add space between items */
+  display: inline-block; /* Ensure inline alignment */
+  width: 100%; /* Make items fill the container */
+}
