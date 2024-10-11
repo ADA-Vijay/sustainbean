@@ -252,3 +252,18 @@ a:hover {
 .footer a {
   color: #f7ca44 !important;
 }
+.initiative-div {
+  width: 50%;
+}
+.initiative-div ul li {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+.initiative-div ul {
+  list-style: none;
+}
+.initiative-div p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
