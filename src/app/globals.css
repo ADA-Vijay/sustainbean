@@ -221,7 +221,7 @@ a.link-underline {
 }
 .nav-link {
   font-size: 13.5px;
-  color: #e4e4e4 ;
+  color: #e4e4e4 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 
@@ -235,4 +235,8 @@ a.link-underline {
 }
 a:hover {
   text-decoration: none !important;
+}
+
+.footer a {
+  color: #f7ca44 !important;
 }
