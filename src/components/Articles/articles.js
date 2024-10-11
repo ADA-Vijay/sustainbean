@@ -50,6 +50,7 @@ const Articles = () => {
       title:
         "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
+      
     },
     {
       image:
