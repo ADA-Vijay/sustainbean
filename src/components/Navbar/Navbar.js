@@ -4,7 +4,7 @@ import styles from "@/components/Navbar/Navbar.module.css";
 const Navbar = () => {
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light`}
+      className={`navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light`}
       id="ftco-navbar"
     >
       <div className={`container ${styles.navContainer}`}>

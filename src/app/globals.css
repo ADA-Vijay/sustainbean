@@ -204,3 +204,35 @@ a.link-underline {
   font-weight: 900;
   color: #fff;
 }
+
+/* navbar css */
+.navbar {
+  position: absolute !important;
+  top: 15px;
+  display:flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  z-index: 100;
+  background-color: transparent !important;
+  width: 100%;
+}
+.navbar-nav {
+  gap: 20px !important;
+}
+.nav-link {
+  font-size: 13.5px;
+  color: #e4e4e4 ;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
+.nav-item.active {
+  border-bottom: 2px solid white;
+}
+.nav-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+a:hover {
+  text-decoration: none !important;
+}

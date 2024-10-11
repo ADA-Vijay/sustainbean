@@ -6,7 +6,7 @@ const Articles = () => {
   const data = [
     {
       image:
-        "https://images.forbes.com/2024-billionaires-ver4/intro-680x383.jpg",
+        "https://image.savethechildren.org/vote-for-kids-ch1420824-rec-ch11149750.jpg/i83ba48n3x12u336ehxja3akm576v2vv.jpg?g=auto&w=360&format=webp&itok=RIiYf8gP",
       title:
         "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
@@ -98,7 +98,7 @@ const Articles = () => {
           {data &&
             data.length > 0 &&
             data.map((e, i) => (
-              <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={i}>
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-3" key={i}>
                 <Link href="/">
                   <div className={style["post-card-item"]}>
                     <div className={style["post-img-div"]}>
