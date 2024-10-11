@@ -23,7 +23,7 @@ export default function Home() {
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "rgba(0, 0, 0, 0.5)", // Black with 50% opacity
+              backgroundColor: "#00000003", // Black with 50% opacity
               zIndex: 1, // Ensure it appears above the background image
             }}
           ></div>

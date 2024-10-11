@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "@/components/Navbar/Navbar.module.css";
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -26,10 +27,10 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <a href="/" className="nav-link">
+            <li className="nav-item">
+              <Link href="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a href="/how-it-works" className="nav-link">
@@ -52,9 +53,9 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/about" className="nav-link">
+              <Link href="/about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a href="/contact" className="nav-link">
