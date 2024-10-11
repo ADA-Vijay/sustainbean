@@ -54,7 +54,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" p-5 m-2">
+      <div className='container-fluid'>
+      <div className=" p-5 m-2 initiative-div">
         <div className="card-body align-items-center">
           <h4 className="d-flex justify-content-center">INITIATIVES</h4>
           <p>1. Community Empowerment :</p>
@@ -90,6 +91,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
+      </div>
       </div>
       <Articles />
       <div
