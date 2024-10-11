@@ -10,7 +10,7 @@ export default function Home() {
             backgroundImage: 'url("banner1.jpg")',
             backgroundPosition: "center",
             backgroundSize: "cover",
-            height: "74vh", // Full viewport height
+            height: "80vh", // Full viewport height
             width: "100%", // Full width
             position: "relative",
           }}
