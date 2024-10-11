@@ -61,7 +61,7 @@ export default function Home() {
           <p>1. Community Empowerment :</p>
           <ul>
             <li>
-              Farmers' Cooperative Initiatives: Establish and support
+              Farmers Cooperative Initiatives: Establish and support
               cooperatives to help farmers pool resources, share knowledge, and
               access better markets.
             </li>
