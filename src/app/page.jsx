@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.container}>
         <div
           style={{
-            backgroundImage: 'url("banner1.jpg")',
+            backgroundImage: 'url("sb_banner1.webp")',
             backgroundPosition: "center",
             backgroundSize: "cover",
             height: "80vh", // Full viewport height
