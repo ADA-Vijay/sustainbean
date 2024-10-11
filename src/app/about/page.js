@@ -5,7 +5,7 @@ function page() {
   return (
     <div>
         <div style={{
-            backgroundImage: 'url("about-banner.jpg")',
+            backgroundImage: 'url("sb_banner2.webp")',
             backgroundPosition: "center",
             backgroundSize: "cover",
             height: "80vh", // Full viewport height
