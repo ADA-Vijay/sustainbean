@@ -30,6 +30,50 @@ a {
 }
 
 
+/* navbar  */
+/* Navbar.module.css */
+
+/* Transparent Navbar */
+.navbar-dark {
+  background-color: rgba(0, 0, 0, 0.4); /* Black with 50% transparency */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  z-index: 1,
+}
+
+/* Dark background on scroll */
+.bg-dark {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);/* Slightly darker on scroll */
+  z-index: 1,
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .nav-link {
+    padding: 10px 15px;
+  }
+}
+
+.navbar-brand {
+  color: #f7ca44 !important; /* Logo color */
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+  color: white;
+}
+
+.oi-menu {
+  font-size: 1.5rem;
+}
+
+
+
 
 
 .footer {
@@ -105,4 +149,58 @@ a.link-underline {
 .block-23 ul li .icon, .block-23 ul li .text {
   display: table-cell;
   vertical-align: top;
+}
+
+
+
+.featured-section {
+  padding: 4em 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* .featured-section.overlay-color-2:before {
+  background: #f7ca44;
+} */
+
+
+.featured-section.overlay-color-2:before {
+  position: absolute;
+  content: "";
+  /* background: #28a745; */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .9;
+}
+
+.featured-section img {
+ 
+  box-shadow: 0 4px 30px -5px black;
+  border-radius: 7px;
+}
+
+
+.featured-section .featured-text {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.featured-section h2 {
+  color: #fff;
+  font-weight: 300;
+    font-family: "Dosis", sans-serif;
+    font-size: 2rem;
+}
+
+.featured-section p {
+  color: #fff;
+}
+
+.featured-section .fund-raised {
+  font-weight: 900;
+  color: #fff;
 }
