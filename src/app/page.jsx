@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='container-fluid'>
+      {/* <div className='container-fluid'>
       <div className=" p-5 m-2 initiative-div">
         <div className="card-body align-items-center">
           <h4 className="d-flex justify-content-center">INITIATIVES</h4>
@@ -92,7 +92,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      </div>
+      </div> */}
       <Articles />
       <div
         className="featured-section overlay-color-2 impactStories"
