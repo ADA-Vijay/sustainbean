@@ -54,44 +54,67 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='container-fluid'>
-      <div className=" p-5 m-2 initiative-div">
-        <div className="card-body align-items-center">
+      <div style={{
+        backgroundImage:
+          "url('https://themewagon.github.io/givehope/images/bg_3.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        position: "relative",
+      }} className='container-fluid'>
+        <div
+          className="overlay"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "rgba(247, 202, 68, 0.8)", // #f7ca44 with 60% transparency
+            zIndex: 1,
+          }}
+        ></div>
+        <div className=" p-5 m-2 initiative-div">
           <h4 className="d-flex justify-content-center">INITIATIVES</h4>
-          <p>1. Community Empowerment :</p>
-          <ul>
-            <li>
-              Farmers' Cooperative Initiatives: Establish and support
-              cooperatives to help farmers pool resources, share knowledge, and
-              access better markets.
-            </li>
-            <li>
-              Community Skill Development Centers: Set up centers offering
-              vocational training in carpentry, tailoring, digital skills, etc.,
-              to empower community members with employable skills.
-            </li>
-            <li>
-              Local Leadership Development: Create leadership training programs
-              for community members to develop local leaders who can drive
-              development projects and advocate for their communities.
-            </li>
-            <li>
-              Yoga and Mindfulness Workshops: Offer yoga and mindfulness
-              workshops to promote mental and physical well-being within the
-              community.
-            </li>
-            <li>
-              Art and Music Therapy: Introduce art and music therapy programs to
-              support mental health and foster creativity and self-expression.
-            </li>
-            <li>
-               Recreational Facilities: Develop recreational facilities such as
-              sports centers, parks, and community gardens to encourage physical
-              activity and social interaction.
-            </li>
-          </ul>
+          <div className="initiative-div-wrap">
+            <div className="card-body align-items-center">
+              <p>1. Community Empowerment :</p>
+              <ul>
+                <li>
+                  Farmers' Cooperative Initiatives: Establish and support
+                  cooperatives to help farmers pool resources, share knowledge, and
+                  access better markets.
+                </li>
+                <li>
+                  Community Skill Development Centers: Set up centers offering
+                  vocational training in carpentry, tailoring, digital skills, etc.,
+                  to empower community members with employable skills.
+                </li>
+                <li>
+                  Local Leadership Development: Create leadership training programs
+                  for community members to develop local leaders who can drive
+                  development projects and advocate for their communities.
+                </li>
+                <li>
+                  Yoga and Mindfulness Workshops: Offer yoga and mindfulness
+                  workshops to promote mental and physical well-being within the
+                  community.
+                </li>
+                <li>
+                  Art and Music Therapy: Introduce art and music therapy programs to
+                  support mental health and foster creativity and self-expression.
+                </li>
+                <li>
+                  Recreational Facilities: Develop recreational facilities such as
+                  sports centers, parks, and community gardens to encourage physical
+                  activity and social interaction.
+                </li>
+              </ul>
+            </div>
+            <div className="initiative-div-img">
+              <img src="https://themewagon.github.io/givehope/images/bg_3.jpg" alt="" />
+            </div>
+          </div>
         </div>
-      </div>
       </div>
       <Articles />
       <div

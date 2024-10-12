@@ -253,11 +253,13 @@ a:hover {
   color: #f7ca44 !important;
 }
 .initiative-div {
-  width: 50%;
+  position: relative;
+  z-index: 2;
 }
 .initiative-div ul li {
   font-size: 1.1rem;
   margin-top: 10px;
+  font-weight: 200;
 }
 .initiative-div ul {
   list-style: none;
@@ -266,4 +268,24 @@ a:hover {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 2rem;
+}
+.initiative-div .card-body {
+  width: 40%;
+  color: white;
+}
+.initiative-div h4 {
+  color: white;
+}
+.initiative-div-img img {
+  width: 100%;
+}
+.initiative-div-img {
+  width: 35rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.initiative-div-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
