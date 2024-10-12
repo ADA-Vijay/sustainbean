@@ -8,81 +8,82 @@ const Articles = () => {
       image:
         "https://image.savethechildren.org/vote-for-kids-ch1420824-rec-ch11149750.jpg/i83ba48n3x12u336ehxja3akm576v2vv.jpg?g=auto&w=360&format=webp&itok=RIiYf8gP",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image: "https://themewagon.github.io/givehope/images/img_3.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://themewagon.github.io/givehope/images/img_4.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://themewagon.github.io/givehope/images/img_1.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://image.savethechildren.org/vote-for-kids-ch1420824-rec-ch11149750.jpg/i83ba48n3x12u336ehxja3akm576v2vv.jpg?g=auto&w=360&format=webp&itok=RIiYf8gP",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image: "https://themewagon.github.io/givehope/images/img_3.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://themewagon.github.io/givehope/images/img_4.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
+
     },
     {
       image:
         "https://themewagon.github.io/givehope/images/img_1.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://image.savethechildren.org/vote-for-kids-ch1420824-rec-ch11149750.jpg/i83ba48n3x12u336ehxja3akm576v2vv.jpg?g=auto&w=360&format=webp&itok=RIiYf8gP",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image: "https://themewagon.github.io/givehope/images/img_3.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://themewagon.github.io/givehope/images/img_4.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
     {
       image:
         "https://themewagon.github.io/givehope/images/img_1.jpg",
       title:
-        "Forbes’ 38th Annual World’s Billionaires List: Facts And Figures 2024",
+        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
   ];
