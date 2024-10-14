@@ -500,3 +500,43 @@ a:hover {
     flex-wrap: wrap !important;
   }
 }
+.initiative-div .card-body {
+  width: 40%;
+  color: white;
+}
+.initiative-div h4 {
+  color: white;
+}
+.initiative-div-img img {
+  width: 100%;
+}
+.initiative-div-img {
+  width: 35rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.initiative-div-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.initiative-div .card-body {
+  width: 40%;
+  color: white;
+}
+.initiative-div h4 {
+  color: white;
+}
+.initiative-div-img img {
+  width: 100%;
+}
+.initiative-div-img {
+  width: 35rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.initiative-div-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
