@@ -1,0 +1,275 @@
+/* Main Container */
+.main-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+/* Banner Section */
+.banner-section {
+  background-image: url("https://fama.b-cdn.net/sustainbean/banner1.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 85px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Banner Title and Subtitle */
+.banner-title {
+  font-size: 48px;
+  color: #fff;
+}
+
+.banner-subtitle {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* Above Cards Content */
+.above-cards-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.above-cards-content h2 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.above-cards-content p {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Cards Container: Align at the bottom of the banner */
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; /* Aligns cards at the bottom */
+  margin-top: auto;
+  padding-bottom: 20px; /* Adds space to the bottom of the banner */
+  width: 100%;
+  position: absolute;
+  top: 65% !important;
+  left: 13%;
+  padding: 0rem 6rem !important;}
+
+.badge{
+    border: 1px solid red ;
+    background-color: #dc0000;
+    color: white;
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    width: 9rem;
+    text-align: center;
+
+}
+/* Each individual card */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-bottom: 1rem;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid;
+  border-color: #E3E3E3;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.learn-more-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.4rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 13rem;
+}
+
+/* .learn-more-btn:hover {
+  background-color: #0056b3;
+} */
+
+/* Middle Content Section */
+.middle-content-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.middle-content-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.middle-content-section p {
+  font-size: 18px;
+  color: #555;
+}
+.cardTitle {
+  background-color: transparent !important;
+  padding: 0;
+  padding-top: 0.4rem !important;
+}
+.cardTitle h3{
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+
+.meta-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 862px;
+  padding: 0 16px;
+}
+.subheader-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+.member-header {
+  color: #fff;
+  font: 600 48px / 1.17 "Schnyder S", serif;
+  margin-bottom: 6px;
+}
+
+.benefits-container {
+  margin-top: 100px !important;
+}
+.member-benefits {
+  margin: 0 auto;
+  padding: 40px 80px 0;
+}
+.member-benefit-container .title {
+  color: #333;
+  font: 400 32px / 1.2 "Schnyder S", serif;
+  margin: 0 0 24px;
+  text-align: center;
+}
+.member-benefit-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.member-benefit-block:nth-child(odd) {
+  padding-right: 63px;
+}
+
+.member-benefit-block:not(:last-child) {
+  padding-bottom: 16px;
+}
+.member-benefit-block {
+  flex-basis: calc(50% - 32px);
+  list-style: none;
+}
+.member-benefit-block__header {
+  color: #333;
+  display: flex;
+  font: 600 18px / 27px "Graphik", serif;
+  padding-bottom: 3px;
+}
+.member-benefit-block__header::before {
+  background-color: #333;
+  border-radius: 50%;
+  content: "";
+  height: 8px;
+  margin: 8px 8px 0 0;
+  min-width: 8px;
+}
+.member-benefit-block__subheader {
+  color: #333;
+  font: 400 17px / 1.6 georgia;
+  margin-left: 16px;
+}
+
+.subheader-1,
+.subheader-2 {
+  font: 16px / 1.38 "Work Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.2px;
+}
+.subheader-2{
+    font-weight: 700;
+} 
+
+@media screen and (max-width: 991px) {
+    .badge{
+        left:33%;
+    }
+  .cards-container {
+    display: block !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns cards at the bottom */
+    margin-top: auto;
+    padding-bottom: 2rem; /* Adds space to the bottom of the banner */
+    width: 100%;
+    position: absolute;
+    left: 0 !important;
+    padding: 1rem !important;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 0.6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 0.6rem;
+    width: 100%;
+    text-align: center;
+  }
+  .cardTitle {
+    padding: 0.2rem !important;
+    background-color: transparent !important;
+  }
+
+  .cardTitle h3 {
+    font-size: 1rem !important;
+  }
+
+  .subheader-container{
+    margin-bottom: 4rem !important;
+  }
+
+  .member-header {
+    color: hsl(0, 0%, 100%);
+    font: 600 27px / 1.17 "Schnyder S", serif;
+    margin-bottom: 8px;
+}
+
+.member-benefits{
+    display: block !important;
+}
+.member-benefit-wrapper{
+  display: block !important;  
+}
+}
+
+
+
+

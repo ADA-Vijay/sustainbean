@@ -33,24 +33,29 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link href="/donation" className="nav-link">
+                Donate
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <a href="/how-it-works" className="nav-link">
                 How It Works
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a href="/donate" className="nav-link">
                 Donate
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a href="/gallery" className="nav-link">
                 Gallery
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <a href="/blog" className="nav-link">
+              <Link href="/blog" className="nav-link">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href="/about" className="nav-link">
@@ -58,9 +63,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="/contact" className="nav-link">
+              <Link href="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

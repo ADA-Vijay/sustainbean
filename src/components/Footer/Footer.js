@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -124,22 +124,28 @@ const Footer = () => {
               <h3 className="heading-section">Get Connected</h3>
               <ul>
                 <li>
-                  <span className="icon icon-map-marker"></span>
+                  <span className="icon fa fa-map-marker"></span>
                   <span className="text">
                     203 Fake St. Mountain View, San Francisco, California, USA
                   </span>
                 </li>
                 <li>
                   <a href="#">
-                    <span className="icon icon-phone"></span>
+                    <i className="icon fa fa-phone"></i>
                     <span className="text">+2 392 3929 210</span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span className="icon icon-envelope"></span>
+                    <span className="icon fa fa-envelope"></span>
                     <span className="text">info@yourdomain.com</span>
                   </a>
+                </li>
+                <li>
+                  <Link href="https://www.instagram.com/sustain.a.bean">
+                    <span className="icon fa-brands fa-instagram"></span>
+                    <span className="text">sustain.a.bean</span>
+                  </Link>
                 </li>
               </ul>
             </div>
