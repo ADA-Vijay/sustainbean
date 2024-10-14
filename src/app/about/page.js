@@ -62,7 +62,7 @@ function Page() {
         <p className="text-center ot-p">
           Some quick example text to build on the card title and make up the
           bulk of the <br />
-          card's content.
+          card&apos;s content.
         </p>
         <div className="team-flex">
           <div className="text-center team-wrap">
