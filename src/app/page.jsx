@@ -18,7 +18,7 @@ export default function Home() {
     "Our vision is to create a world where health, fairness, and sustainability coexist harmoniously. We strive to be a catalyst for change, creating a regenerative legacy that supports the well-being of our consumers, farmers, and the planet. Through our products, partnerships, and initiatives, we aim to foster a deeper connection to the origins of our food and promote a more sustainable and equitable future for all.";
 
   const initiativeText =
-    "Community Empowerment : Farmers' Cooperative Initiatives: Establish and support cooperatives to help farmers pool resources, share knowledge, and access better markets. Community Skill Development Centers: Set up centers offering vocational training in carpentry, tailoring, digital skills, etc., to empower community members with employable skills.";
+    "Community Empowerment : Farmers Cooperative Initiatives: Establish and support cooperatives to help farmers pool resources, share knowledge, and access better markets. Community Skill Development Centers: Set up centers offering vocational training in carpentry, tailoring, digital skills, etc., to empower community members with employable skills.";
   return (
     <>
       <div className={styles.container}>
