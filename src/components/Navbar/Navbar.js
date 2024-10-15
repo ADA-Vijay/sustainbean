@@ -8,11 +8,11 @@ const Navbar = () => {
       className={`navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light`}
       id="ftco-navbar"
     >
-      <div className={`container ${styles.navContainer}`}>
+      <div className={`container-fluid ${styles.navContainer} pl-5 pr-5`}>
         {/* <a className={styles["navbar-brand"]} href="/">
           GiveHope
         </a> */}
-        <img src="logo.png" alt="" style={{width:" 3.8rem"}}/>
+        <img src="logo.png" alt="" style={{width:" 4.8rem"}}/>
         {/* <button
           className={styles["navbar-toggler"]}
           type="button"
@@ -30,6 +30,16 @@ const Navbar = () => {
             <li className="nav-item">
               <Link href="/" className="nav-link">
                 Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/about" className="nav-link">
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/initiatives" className="nav-link">
+                Our Initiatives
               </Link>
             </li>
             <li className="nav-item">
@@ -57,11 +67,7 @@ const Navbar = () => {
                 Blog
               </Link>
             </li>
-            <li className="nav-item">
-              <Link href="/about" className="nav-link">
-                About
-              </Link>
-            </li>
+          
             <li className="nav-item">
               <Link href="/contact" className="nav-link">
                 Contact

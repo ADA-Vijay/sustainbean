@@ -54,31 +54,31 @@ const Articles = () => {
         "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
       author: "By Chase Peterson-Withorn",
     },
-    {
-      image:
-        "https://image.savethechildren.org/vote-for-kids-ch1420824-rec-ch11149750.jpg/i83ba48n3x12u336ehxja3akm576v2vv.jpg?g=auto&w=360&format=webp&itok=RIiYf8gP",
-      title:
-        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
-      author: "By Chase Peterson-Withorn",
-    },
-    {
-      image: "https://themewagon.github.io/givehope/images/img_3.jpg",
-      title:
-        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
-      author: "By Chase Peterson-Withorn",
-    },
-    {
-      image: "https://themewagon.github.io/givehope/images/img_4.jpg",
-      title:
-        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
-      author: "By Chase Peterson-Withorn",
-    },
-    {
-      image: "https://themewagon.github.io/givehope/images/img_1.jpg",
-      title:
-        "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
-      author: "By Chase Peterson-Withorn",
-    },
+    // {
+    //   image:
+    //     "https://image.savethechildren.org/vote-for-kids-ch1420824-rec-ch11149750.jpg/i83ba48n3x12u336ehxja3akm576v2vv.jpg?g=auto&w=360&format=webp&itok=RIiYf8gP",
+    //   title:
+    //     "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
+    //   author: "By Chase Peterson-Withorn",
+    // },
+    // {
+    //   image: "https://themewagon.github.io/givehope/images/img_3.jpg",
+    //   title:
+    //     "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
+    //   author: "By Chase Peterson-Withorn",
+    // },
+    // {
+    //   image: "https://themewagon.github.io/givehope/images/img_4.jpg",
+    //   title:
+    //     "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
+    //   author: "By Chase Peterson-Withorn",
+    // },
+    // {
+    //   image: "https://themewagon.github.io/givehope/images/img_1.jpg",
+    //   title:
+    //     "Forbes 38th Annual Worlds Billionaires List: Facts And Figures 2024",
+    //   author: "By Chase Peterson-Withorn",
+    // },
   ];
 
   const MAX_CONTENT_LENGTH = 150; // Set the maximum number of characters for each section
@@ -103,17 +103,20 @@ const Articles = () => {
           <img src="https://themewagon.github.io/givehope/images/bg_3.jpg"></img>
         </div>
         <div className="wt2">
-          <h1>Who Are We?</h1>
+          <h1 className="title-font">Who We Are</h1>
           <p className="p1">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
+            At Sustain a Bean, we believe in the power of community,
+            sustainability, and fair trade. Our journey began in the cocoa farms
+            of Suhum, Ghana, where we witnessed firsthand the challenges faced
+            by farmers—exploitation, unfair trade practices, and a lack of
+            opportunities for growth. Inspired by their resilience, we set out
+            to create a brand that not only delivers exceptional cocao but also
+            makes a lasting impact on the lives of those who nurture its roots.
           </p>
-          <p className="p2">
+          {/* <p className="p2">
             A small river named Duden flows by their place and supplies it with
             the necessary regelialia
-          </p>
+          </p> */}
           <button>LEARN MORE</button>
         </div>
       </div>
@@ -124,12 +127,8 @@ const Articles = () => {
           </div>
           <div className="mission-content">
             <h3>Our Mission</h3>
-            <p>
-            {truncateText(missionText, MAX_CONTENT_LENGTH)}
-            </p>
-            <Link href="/vision">
-              Learn More
-            </Link>
+            <p>{truncateText(missionText, MAX_CONTENT_LENGTH)}</p>
+            <Link href="/vision">Learn More</Link>
             {/* <a href="">Learn More</a> */}
           </div>
         </div>
@@ -139,12 +138,8 @@ const Articles = () => {
           </div>
           <div className="mission-content">
             <h3>Our Vision</h3>
-            <p>
-            {truncateText(visionText, MAX_CONTENT_LENGTH)}
-            </p>
-            <Link href="/vision">
-              Learn More
-            </Link>
+            <p>{truncateText(visionText, MAX_CONTENT_LENGTH)}</p>
+            <Link href="/vision">Learn More</Link>
             {/* <a href="">Learn More</a> */}
           </div>
         </div>
@@ -154,19 +149,15 @@ const Articles = () => {
           </div>
           <div className="mission-content">
             <h3>Our Initiatives</h3>
-            <p>
-            {truncateText(initiativeText, MAX_CONTENT_LENGTH)}
-            </p>
-            <Link href="/vision">
-              Learn More
-            </Link>
+            <p>{truncateText(initiativeText, MAX_CONTENT_LENGTH)}</p>
+            <Link href="/vision">Learn More</Link>
             {/* <a href="">Learn More</a> */}
           </div>
         </div>
       </div>
       <div className={style["container-wrap"]}>
         <div className={style.contentWrap}>
-          <h2 className={style["relatedpost-title"]}>Related Post</h2>
+          <h2 className={style["relatedpost-title"]}>Articles</h2>
           <div className="row">
             {data &&
               data.length > 0 &&

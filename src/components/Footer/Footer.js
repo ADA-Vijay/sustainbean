@@ -8,17 +8,20 @@ const Footer = () => {
           <div className="col-md-6 col-lg-4">
             <h3 className="heading-section">About Us</h3>
             <p className="lead">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
+              At Sustain a Bean, we believe in the power of community,
+              sustainability, and fair trade. Our journey began in the cocoa
+              farms of Suhum, Ghana, where we witnessed firsthand the challenges
+              faced by farmers—exploitation, unfair trade practices, and a lack
+              of opportunities for growth.
             </p>
-            <p className="mb-5">
+            {/* <p className="mb-5">
               Separated they live in Bookmarksgrove right at the coast of the
               Semantics, a large language ocean.
-            </p>
+            </p> */}
             <p>
-              <a href="/" className="link-underline">
+              <Link href="/about" className="link-underline">
                 Read More
-              </a>
+              </Link>
             </p>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -125,14 +128,12 @@ const Footer = () => {
               <ul>
                 <li>
                   <span className="icon fa fa-map-marker"></span>
-                  <span className="text">
-                    203 Fake St. Mountain View, San Francisco, California, USA
-                  </span>
+                  <span className="text">17 dadeban road, Accra Ghana</span>
                 </li>
                 <li>
                   <a href="#">
                     <i className="icon fa fa-phone"></i>
-                    <span className="text">+2 392 3929 210</span>
+                    <span className="text"> +23 3243110615</span>
                   </a>
                 </li>
                 <li>

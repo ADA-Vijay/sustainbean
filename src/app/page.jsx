@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./page.module.css";
 import Articles from "@/components/Articles/articles";
 import Link from "next/link";
-import style from "@/app/donation/page.module.css"
+import style from "@/app/donation/page.module.css";
 export default function Home() {
   const MAX_CONTENT_LENGTH = 150; // Set the maximum number of characters for each section
 
@@ -73,41 +73,41 @@ export default function Home() {
       </div>
 
       <Articles />
-      <div className="container-fluid ourteam-container">
+      <div className="container-fluid ourteam-container" style={{backgroundColor:"#fff3e3"}}>
         <h1 className="text-center ot-h1">Our Team</h1>
-        <p className="text-center ot-p">
+        {/* <p className="text-center ot-p">
           Some quick example text to build on the card title and make up the
           bulk of the <br />
           card&apos;s content.
-        </p>
+        </p> */}
         <div className="team-flex">
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile1.webp"></img>
             </div>
-            <p>Jorge Smith</p>
-            <p className="p2">Donated just now</p>
+            <p>Mrs Vanya Mohan</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile2.webp"></img>
             </div>
-            <p>Jorge Smith</p>
-            <p className="p2">Donated just now</p>
+            <p>Mr Jason Mohan</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile3.webp"></img>
             </div>
-            <p>Jorge Smith</p>
-            <p className="p2">Donated just now</p>
+            <p>Mr Jeffrey Hammond</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://themewagon.github.io/givehope/images/person_4.jpg"></img>
             </div>
             <p>Jorge Smith</p>
-            <p className="p2">Donated just now</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6">
               <img
-                src="https://themewagon.github.io/givehope/images/bg_2.jpg"
+                src="https://themewagon.github.io/givehope/images/bg_3.jpg"
                 alt="Image placeholder"
                 className="img-fluid"
               />
@@ -147,51 +147,54 @@ export default function Home() {
 
             <div className="col-md-6 pl-md-5">
               <span className="featured-text d-block mb-3">
-                Be volunteer Today
+                Our Initiatives
               </span>
-              <input
-                className="volunteer-input"
-                placeholder="Enter Your Name"
-                type="text"
-              />
-              <input
-                className="volunteer-input mt-3"
-                placeholder="Email Your Email"
-                type="text"
-              />
-              <textarea
-                placeholder="Write Your Message"
-                className="volunteer-input volunteer-textarea mt-3"
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-              ></textarea>
+              <h2>Empowering Communities, Enhancing Lives</h2>
+              <p className="mb-3">
+                At the heart of our mission is a commitment to building
+                stronger, healthier, and more resilient communities. Through a
+                combination of education, healthcare, and empowerment programs,
+                we aim to uplift individuals and foster sustainable development.
+              </p>
+              {/* <p>
+                Community Skill Development Centers : Set up centers offering
+                vocational training in carpentry, tailoring, digital skills,
+                etc., to empower community members with employable skills.
+              </p> */}
+              {/* <span className="fund-raised d-block mb-5">
+                We have raised $100,000
+              </span> */}
 
-              <p className="mt-3">
+              <p>
                 <a
                   href="#"
                   className="btn btn-success btn-hover-white py-3 px-5"
                 >
-                  SEND
+                  Read The Full Story
                 </a>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="container-fluid mt-4 mb-5">
-      <div className="mb-4">
-      <h1 className="text-center ot-h1">Subscribe</h1>
-        {/* <p className="text-center ot-p">
+
+      <div className="container-fluid p-5" style={{backgroundColor:"#fff3e3"}}>
+        <div className="mb-4">
+          <h1 className="text-center ot-h1">Subscribe</h1>
+          {/* <p className="text-center ot-p">
         Be a Part of the Change – Sign Up for News, Events, and Ways to Get Involved!
         </p> */}
-        <strong><p className="text-center ot-p">
-        Be a Part of the Change – Sign Up for News, Events, and Ways to Get Involved!
-        </p></strong>
-      </div>
-      
-        <div className={`container ${style["cards-container"]}`} style={{position:"relative",top:"0",left:"0"}}>
+          <strong>
+            <p className="text-center ot-p">
+              From Soil to Soul, Be Part of the Change 
+            </p>
+          </strong>
+        </div>
+
+        <div
+          className={`container ${style["cards-container"]}`}
+          style={{ position: "relative", top: "0", left: "0" }}
+        >
           <div className={style["card"]}>
             <div className={`${style.cardTitle} card-header`}>
               <h3>MONTHLY</h3>
@@ -335,7 +338,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6">
               <img
-                src="https://themewagon.github.io/givehope/images/bg_3.jpg"
+                src="https://themewagon.github.io/givehope/images/bg_2.jpg"
                 alt="Image placeholder"
                 className="img-fluid"
               />
@@ -343,26 +346,33 @@ export default function Home() {
 
             <div className="col-md-6 pl-md-5">
               <span className="featured-text d-block mb-3">
-                Success Stories
+                Be volunteer Today
               </span>
-              <h2>
-                Water Is Life. We Successfully Provide Clean Water in South East
-                Asia
-              </h2>
-              <p className="mb-3">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-              <span className="fund-raised d-block mb-5">
-                We have raised $100,000
-              </span>
+              <input
+                className="volunteer-input"
+                placeholder="Enter Your Name"
+                type="text"
+              />
+              <input
+                className="volunteer-input mt-3"
+                placeholder="Email Your Email"
+                type="text"
+              />
+              <textarea
+                placeholder="Write Your Message"
+                className="volunteer-input volunteer-textarea mt-3"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
 
-              <p>
+              <p className="mt-3">
                 <a
                   href="#"
                   className="btn btn-success btn-hover-white py-3 px-5"
                 >
-                  Read The Full Story
+                  SEND
                 </a>
               </p>
             </div>

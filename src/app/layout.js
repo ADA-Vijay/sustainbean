@@ -30,8 +30,13 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet"
         />
-        <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
+      
 
+        <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet" />
       </head>
       <body className={inter.className}>
         <Navbar />
