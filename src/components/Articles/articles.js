@@ -98,7 +98,7 @@ const Articles = () => {
     "Community Empowerment : Farmers' Cooperative Initiatives: Establish and support cooperatives to help farmers pool resources, share knowledge, and access better markets. Community Skill Development Centers: Set up centers offering vocational training in carpentry, tailoring, digital skills, etc., to empower community members with employable skills.";
   return (
     <div className={style["container"]}>
-      <div className="container-fluid wt-container">
+      {/* <div className="container-fluid wt-container">
         <div className="wt1">
           <img src="https://themewagon.github.io/givehope/images/bg_3.jpg"></img>
         </div>
@@ -113,13 +113,10 @@ const Articles = () => {
             to create a brand that not only delivers exceptional cocao but also
             makes a lasting impact on the lives of those who nurture its roots.
           </p>
-          {/* <p className="p2">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia
-          </p> */}
+          
           <button>LEARN MORE</button>
         </div>
-      </div>
+      </div> */}
       <div className="container-fluid inetiative-container">
         <div className="mission-content-wrap">
           <div className="icon-div">

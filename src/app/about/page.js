@@ -106,7 +106,7 @@ function Page() {
         </div>
       </div>
       <div className="container-fluid ourteam-container">
-        <h1 className="text-center ot-h1">Our Team</h1>
+        <h1 className="text-center ot-h1">Founders Note</h1>
         {/* <p className="text-center ot-p">
           Some quick example text to build on the card title and make up the
           bulk of the <br />
@@ -118,28 +118,28 @@ function Page() {
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile1.webp"></img>
             </div>
             <p>Mrs Vanya Mohan</p>
-            <p className="p2">Donated just now</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile2.webp"></img>
             </div>
             <p>Mr Jason Mohan</p>
-            <p className="p2">Donated just now</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile3.webp"></img>
             </div>
             <p>Mr Jeffrey Hammond</p>
-            <p className="p2">Donated just now</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://themewagon.github.io/givehope/images/person_4.jpg"></img>
             </div>
             <p>Jorge Smith</p>
-            <p className="p2">Donated just now</p>
+            {/* <p className="p2">Donated just now</p> */}
           </div>
         </div>
       </div>

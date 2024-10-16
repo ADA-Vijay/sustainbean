@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+.modalBody {
+  padding: 0 !important;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff3e3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.image {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+  height: 100% !important;
+  
+}
+
+.subscribe {
+  flex: 1;
+  margin-left: 2rem;
+  color: #fff;
+  text-align: center; /* Centers the text */
+}
+
+.subscribe h2 {
+  margin-bottom: 1rem;
+  color:  #303037c1;
+}
+
+.subscribe p {
+  margin: 1rem 0;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #303037;
+}
+.closeButton {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .closeButton:hover {
+    color: #ff6b6b; /* Optional: Add hover effect */
+  }
+  
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the inputs and button */
+}
+
+.subscribe input {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: 1px solid #94949c;
+  background: transparent;
+  color: #94949c;
+  font-weight: 300;
+  width: 80%; /* Adjusts the width */
+  margin-bottom: 1rem; /* Adds margin between inputs */
+}
+
+.subscribe button {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: 1px solid #93c814;
+  background-color: #93c814;
+  color: #303037;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  width: 80%; /* Matches button width with inputs */
+}
+
+.subscribe button:hover {
+  background: transparent;
+  color: #93c814;
+}
+
+@media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      background-image: url("https://cdn.pixabay.com/photo/2019/01/12/16/21/breakfast-3928800_960_720.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  
+    .image {
+      display: none; /* Hide the image div */
+    }
+  
+    .subscribe {
+      margin-left: 0;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.5); /* Optional: add background for text readability */
+      z-index: 1;
+      text-align: center;
+    }
+  
+    .subscribe input,
+    .subscribe button {
+      width: 100%; /* Full width for inputs and button */
+    }
+  }

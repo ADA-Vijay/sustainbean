@@ -27,11 +27,11 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/" className="nav-link">
                 Home
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link href="/about" className="nav-link">
                 About Us

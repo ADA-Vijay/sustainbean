@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Articles from "@/components/Articles/articles";
 import Link from "next/link";
 import style from "@/app/donation/page.module.css";
+import Newsletter from "@/components/Newsletter/newsletter";
 export default function Home() {
   const MAX_CONTENT_LENGTH = 150; // Set the maximum number of characters for each section
 
@@ -73,44 +74,36 @@ export default function Home() {
       </div>
 
       <Articles />
-      <div className="container-fluid ourteam-container" style={{backgroundColor:"#fff3e3"}}>
+      {/* <div className="container-fluid ourteam-container" style={{backgroundColor:"#fff3e3"}}>
         <h1 className="text-center ot-h1">Our Team</h1>
-        {/* <p className="text-center ot-p">
-          Some quick example text to build on the card title and make up the
-          bulk of the <br />
-          card&apos;s content.
-        </p> */}
+       
         <div className="team-flex">
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile1.webp"></img>
             </div>
             <p>Mrs Vanya Mohan</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile2.webp"></img>
             </div>
             <p>Mr Jason Mohan</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile3.webp"></img>
             </div>
             <p>Mr Jeffrey Hammond</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://themewagon.github.io/givehope/images/person_4.jpg"></img>
             </div>
             <p>Jorge Smith</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
         </div>
-      </div>
+      </div> */}
       <div
         className="featured-section overlay-color-2 impactStories"
         style={{
@@ -379,6 +372,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Newsletter />
     </>
   );
 }
