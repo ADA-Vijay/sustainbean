@@ -178,7 +178,7 @@ const LoginModal = ({ isOpen, handleClose }) => {
                  
                   {timer !== 0 && (
                     <p className="text-center mt-5 otp-p">
-                      We've sent your code. Try again in {timer} seconds
+                      We&apos;ve sent your code. Try again in {timer} seconds
                     </p>
                   )}
                   {timer === 0 && (
@@ -187,7 +187,7 @@ const LoginModal = ({ isOpen, handleClose }) => {
                       onClick={handleOtpNotRecieved}
                       style={{ cursor: "pointer" }}
                     >
-                      didn't received ? resend
+                      didn&apos;t received ? resend
                     </p>
                   )}{" "}
                 </div>

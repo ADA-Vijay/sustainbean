@@ -177,9 +177,9 @@ function Page() {
                       <div className="lc-block">
                         <div editable="rich">
                           <p className="rfs-8 text-muted">
-                            "At the heart of our organization are individuals
+                          &quot;At the heart of our organization are individuals
                             who envisioned a better future for all and took bold
-                            steps to turn that vision into a reality."
+                            steps to turn that vision into a reality.&quot;
                           </p>
                         </div>
                         <div editable="rich">
