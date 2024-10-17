@@ -16,7 +16,12 @@ const Newsletter = () => {
 
   return (
     <>
-      <Modal show={openModal} onHide={() => setOpenModal(false)} size="lg">
+      <Modal
+        show={openModal}
+        onHide={() => setOpenModal(false)}
+        size="lg"
+        centered
+      >
         <Modal.Body className={style.modalBody}>
           <button
             className={style.closeButton}

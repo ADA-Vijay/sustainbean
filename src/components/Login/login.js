@@ -112,6 +112,7 @@ const LoginModal = ({ isOpen, handleClose }) => {
       onHide={handleClose}
       className={styles.modal}
       size="lg"
+      centered
     >
       <button className={styles.closeButton} onClick={handleCloseModal}>
         &times;
