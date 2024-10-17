@@ -40,7 +40,7 @@ const Newsletter = () => {
                   name="name"
                   id="name"
                   placeholder="Enter your name"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
                 <br />
                 <input
@@ -48,7 +48,7 @@ const Newsletter = () => {
                   name="email"
                   id="email"
                   placeholder="Enter your email address"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
                 <br />
                 <button type="button">Subscribe</button>

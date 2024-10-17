@@ -4,26 +4,13 @@ import Articles from "@/components/Articles/articles";
 import Link from "next/link";
 import style from "@/app/donation/page.module.css";
 import Newsletter from "@/components/Newsletter/newsletter";
+import Banner from "@/components/Banner/banner";
 export default function Home() {
-  const MAX_CONTENT_LENGTH = 150; // Set the maximum number of characters for each section
 
-  const truncateText = (text, maxLength) => {
-    return text.length > maxLength
-      ? text.substring(0, maxLength) + "..."
-      : text;
-  };
-  const missionText =
-    "We are committed to transforming the lives of cocoa farmers and their communities through fair trade practices, sustainable farming, and holistic wellness initiatives. Our goal is to educate and inspire others to support ethical and sustainable consumption, ensuring that every bite of our chocolate makes a positive impact.";
-
-  const visionText =
-    "Our vision is to create a world where health, fairness, and sustainability coexist harmoniously. We strive to be a catalyst for change, creating a regenerative legacy that supports the well-being of our consumers, farmers, and the planet. Through our products, partnerships, and initiatives, we aim to foster a deeper connection to the origins of our food and promote a more sustainable and equitable future for all.";
-
-  const initiativeText =
-    "Community Empowerment : Farmers Cooperative Initiatives: Establish and support cooperatives to help farmers pool resources, share knowledge, and access better markets. Community Skill Development Centers: Set up centers offering vocational training in carpentry, tailoring, digital skills, etc., to empower community members with employable skills.";
   return (
     <>
       <div className={styles.container}>
-        <div
+        {/* <div
           style={{
             backgroundImage:
               'url("https://fama.b-cdn.net/sustainbean/banner1.webp")',
@@ -33,7 +20,7 @@ export default function Home() {
             width: "100%", // Full width
             position: "relative",
           }}
-        >
+        > */}
           {/* Transparent black overlay */}
           <div
             style={{
@@ -42,13 +29,13 @@ export default function Home() {
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "#00000003", // Black with 50% opacity
-              zIndex: 1, // Ensure it appears above the background image
+              backgroundColor: "#00000003",
+              zIndex: 1, 
             }}
           ></div>
-
+          <Banner />
           {/* Content */}
-          <div
+          {/* <div
             className="container h-100"
             style={{ position: "relative", zIndex: 2 }}
           >
@@ -64,13 +51,12 @@ export default function Home() {
                     <span className="play-icon-wrap align-self-center mr-4">
                       <span className="ion-ios-play"></span>
                     </span>
-                    {/* <span className="align-self-center">Watch Video</span> */}
                   </a>
                 </p>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
 
       <Articles />
@@ -171,7 +157,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container-fluid p-5" style={{backgroundColor:"#fff3e3"}}>
+      <div
+        className="container-fluid p-5"
+        style={{ backgroundColor: "#fff3e3" }}
+      >
         <div className="mb-4">
           <h1 className="text-center ot-h1">Subscribe</h1>
           {/* <p className="text-center ot-p">
@@ -179,7 +168,7 @@ export default function Home() {
         </p> */}
           <strong>
             <p className="text-center ot-p">
-              From Soil to Soul, Be Part of the Change 
+              From Soil to Soul, Be Part of the Change
             </p>
           </strong>
         </div>

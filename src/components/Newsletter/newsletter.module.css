@@ -49,7 +49,7 @@
     top: 5px;
     right: 20px;
     background: transparent;
-    border: none;
+    border: none !important;
     font-size: 1.5rem;
     color: black;
     cursor: pointer;
@@ -58,6 +58,9 @@
   
   .closeButton:hover {
     color: #ff6b6b; /* Optional: Add hover effect */
+  }
+  .closeButton:focus {
+    outline: none;
   }
   
 

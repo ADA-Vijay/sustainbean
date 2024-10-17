@@ -105,41 +105,109 @@ function Page() {
           </div>
         </div>
       </div>
-      <div className="container-fluid ourteam-container">
+      {/* <div className="container-fluid ourteam-container">
         <h1 className="text-center ot-h1">Founders Note</h1>
-        {/* <p className="text-center ot-p">
-          Some quick example text to build on the card title and make up the
-          bulk of the <br />
-          card&apos;s content.
-        </p> */}
         <div className="team-flex">
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile1.webp"></img>
             </div>
             <p>Mrs Vanya Mohan</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile2.webp"></img>
             </div>
             <p>Mr Jason Mohan</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://fama.b-cdn.net/sustainbean/teamProfile3.webp"></img>
             </div>
             <p>Mr Jeffrey Hammond</p>
-            {/* <p className="p2">Donated just now</p> */}
           </div>
           <div className="text-center team-wrap">
             <div className="team-img">
               <img src="https://themewagon.github.io/givehope/images/person_4.jpg"></img>
             </div>
             <p>Jorge Smith</p>
-            {/* <p className="p2">Donated just now</p> */}
+          </div>
+        </div>
+      </div> */}
+
+      <div className="container py-8 mb-5">
+        <h3 className="text-center m-4">Founders Note</h3>
+        <div className="row g-0  rounded-3">
+          <div className="col-lg-6 position-relative">
+            <div className="d-none d-xl-block position-absolute top-100 start-0 translate-middle"></div>
+            <img
+              className="img-fluid rounded h-100 w-100"
+              src="https://fama.b-cdn.net/sustainbean/teamProfile1.webp"
+              srcSet=""
+              sizes=""
+              width="900"
+              height=""
+              alt="Photo by Austin Distel"
+              loading="lazy"
+            />
+          </div>
+          <div className="col-lg-6 text-center align-self-center">
+            <div className="lc-block mb-3 pt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                lc-helper="svg-icon"
+                className="text-muted"
+              >
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"></path>
+              </svg>
+            </div>
+            <div className="lc-block">
+              <div
+                id="carouselTestimonial"
+                className="carousel slide pb-4"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-inner px-5">
+                  <div className="carousel-item active">
+                    <div className="row">
+                      <div className="lc-block">
+                        <div editable="rich">
+                          <p className="rfs-8 text-muted">
+                            "At the heart of our organization are individuals
+                            who envisioned a better future for all and took bold
+                            steps to turn that vision into a reality."
+                          </p>
+                        </div>
+                        <div editable="rich">
+                          <p className="rfs-8 text-muted">
+                            With over 15 years of experience in humanitarian
+                            work, Vanya has always been passionate about creating
+                            lasting change in underprivileged communities. Her
+                            journey began when he volunteered at local shelters
+                            during college, and she has since dedicated his life
+                            to advocating for human rights, education, and
+                            health care access for all. Under his leadership,
+                            the NGO has reached over 50,000 people across
+                            multiple countries, providing essential services and
+                            opportunities for a brighter future.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="lc-block">
+                        <h5 editable="inline" className="mb-1">
+                          Mrs Vanya Mohan
+                        </h5>
+                        <p editable="inline">Founder</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

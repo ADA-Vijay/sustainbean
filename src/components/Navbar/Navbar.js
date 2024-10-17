@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "@/components/Navbar/Navbar.module.css";
 import Link from 'next/link';
-
+import LoginButton from "@/components/LoginButton/loginbutton"
 const Navbar = () => {
   return (
     <nav
@@ -73,6 +73,10 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li className="nav-item">
+              <LoginButton />
+            </li>
+           
           </ul>
         </div>
       </div>
