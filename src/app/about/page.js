@@ -62,7 +62,7 @@ function Page() {
           </div>
           <div className="col-lg-6">
             <p>
-              Sustain a Bean is more than just Cocoa ; it’s a movement to give
+              Sustain a Bean is more than just Cocoa ; it&apos;s a movement to give
               back to the very communities that make our product possible. We
               work hand-in-hand with farmers to ensure they receive fair wages,
               access to education, and the resources needed to build better
