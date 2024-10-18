@@ -22,7 +22,7 @@ export default function Home() {
           }}
         > */}
           {/* Transparent black overlay */}
-          <div
+          {/* <div
             style={{
               position: "absolute",
               top: 0,
@@ -32,7 +32,7 @@ export default function Home() {
               backgroundColor: "#00000003",
               zIndex: 1, 
             }}
-          ></div>
+          ></div> */}
           <Banner />
           {/* Content */}
           {/* <div

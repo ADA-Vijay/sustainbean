@@ -1,0 +1,75 @@
+.carouselItem {
+    display: flex;
+    align-items: stretch; /* Ensure child elements stretch to the full height */
+    justify-content: space-between;
+    width: 100%;
+    height: 100%; /* Make the item take the full height of the carousel */
+  }
+  
+  .featuresSection {
+    flex: 0.3; /* Adjust width */
+    padding: 20px;
+    color: #fff;
+    background-color: #221f20; /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    height: 100%; /* Ensure it takes the full height */
+  }
+  
+  .featuresSection h3 {
+    font-size: 1.2rem; /* Adjust heading size */
+    margin-bottom: 10px;
+  }
+  
+  .featuresSection ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .featuresSection li {
+    margin-bottom: 8px; 
+    font-size: 0.7rem;
+  }
+  
+  .imageSection {
+    flex: 0.8; 
+  }
+  
+  .carouselImage {
+    width: 100%;
+    height: auto;
+  }
+/* Media Query for smaller screens: stack image on top and features below */
+@media (max-width: 1024px) {
+    .carouselItem {
+      flex-direction: column; /* Stack image and features vertically */
+    }
+  
+    .imageSection {
+      order: 1; /* Image section goes on top */
+    }
+  
+    .featuresSection {
+      order: 2; /* Features section goes below the image */
+      flex: unset; /* Reset flex behavior */
+      padding: 15px;
+      height: auto; /* Let it adjust based on content */
+    }
+    
+  }
+  
+  @media (max-width: 464px) {
+    .featuresSection h3 {
+      font-size: 1rem; /* Smaller heading on mobile */
+    }
+  
+    .featuresSection li {
+      font-size: 0.6rem; /* Smaller list items on mobile */
+    }
+  
+    .featuresSection {
+      padding: 10px;
+    }
+    
+  }

@@ -2,6 +2,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import styles from "@/components/Banner/banner.module.css"; // Import the CSS module for styling
 
 const Banner = () => {
   const responsive = {
@@ -15,7 +16,7 @@ const Banner = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -24,7 +25,30 @@ const Banner = () => {
   };
 
   const images = [
-    "https://www.nest.ngo/images/banner3.jpg",
+    {
+      src: "https://fama.b-cdn.net/sustainbean/sb-banner1.webp",
+      features: {
+        title: "Making a difference together",
+      },
+    },
+    {
+      src: "https://fama.b-cdn.net/sustainbean/sb-banner2.webp",
+      features: {
+        title: "Empowering, Uplifting, Sustainability",
+      },
+    },
+    {
+      src: "https://fama.b-cdn.net/sustainbean/sb-banner3.webp",
+      features: {
+        title: "From soil to soul",
+      },
+    },
+    {
+      src: "https://fama.b-cdn.net/sustainbean/sb-banner4.webp",
+      features: {
+        title: "Sustain-A-Bean",
+      },
+    },
   ];
 
   return (
@@ -41,14 +65,23 @@ const Banner = () => {
       transitionDuration={500}
       removeArrowOnDeviceType={["tablet", "mobile"]}
       deviceType="desktop"
+      arrows={false}
     >
-      {images.map((src, index) => (
-        <div key={index}>
-          <img
-            src={src}
-            alt={`Banner ${index + 1}`}
-            style={{ width: "100%", height: "auto" }}
-          />
+      {images.map((item, index) => (
+        <div key={index} className={styles.carouselItem}>
+          <div className={styles.featuresSection}>
+            <h3>{item.features.title}</h3>
+            {/* <ul>
+              <li key={index}>{item.features.title}</li>
+            </ul> */}
+          </div>
+          <div className={styles.imageSection}>
+            <img
+              src={item.src}
+              alt={`Banner ${index + 1}`}
+              className={styles.carouselImage}
+            />
+          </div>
         </div>
       ))}
     </Carousel>
