@@ -162,12 +162,12 @@ export default function Home() {
         style={{ backgroundColor: "#fff3e3" }}
       >
         <div className="mb-4">
-          <h1 className="text-center ot-h1">Subscribe</h1>
+          <h1 className={`text-center  ${style.subcribeTitle}`}>Subscribe</h1>
           {/* <p className="text-center ot-p">
         Be a Part of the Change – Sign Up for News, Events, and Ways to Get Involved!
         </p> */}
           <strong>
-            <p className="text-center ot-p">
+            <p className="text-center ">
               From Soil to Soul, Be Part of the Change
             </p>
           </strong>

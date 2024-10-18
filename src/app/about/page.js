@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import style from "@/app/page.module.css"
 function Page() {
   const MAX_CONTENT_LENGTH = 150; // Set the maximum number of characters for each section
 
@@ -45,7 +46,7 @@ function Page() {
 
       {/* Content below the background */}
       <div className="container mt-5">
-        <h2 style={{ color: "black", margin: "2rem" }}>About Us</h2>
+        <h2 style={{ color: "black", margin: "2rem" }} className={`${style.subcribeTitle} text-center`}>About Us</h2>
         <div className="row">
           <div className="col-lg-6">
             <p>
@@ -136,7 +137,7 @@ function Page() {
       </div> */}
 
       <div className="container py-8 mb-5">
-        <h3 className="text-center m-4">Founders Note</h3>
+        <h3 className={`text-center m-4 ${style.subcribeTitle}`}>Founders Note</h3>
         <div className="row g-0  rounded-3">
           <div className="col-lg-6 position-relative">
             <div className="d-none d-xl-block position-absolute top-100 start-0 translate-middle"></div>
@@ -152,7 +153,7 @@ function Page() {
             />
           </div>
           <div className="col-lg-6 text-center align-self-center">
-            <div className="lc-block mb-3 pt-4">
+            <div className="lc-block mb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="3em"

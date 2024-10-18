@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.logo}>
-            <span>SUSTAIN A BEAN</span>
+            <span >SUSTAIN A BEAN</span>
           </div>
 
           <div className={styles.rightSection}></div>
@@ -66,9 +66,9 @@ const Navbar = () => {
           <li className={styles.navItem}>
               <Link href="/about">ABOUT US</Link>
             </li>
-            <li className={styles.navItem}>
+            {/* <li className={styles.navItem}>
               <Link href="/initiatives">OUR INITIATIVES</Link>
-            </li>
+            </li> */}
             <li className={styles.navItem}>
               <Link href="/donation">DONATE</Link>
             </li>

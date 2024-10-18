@@ -1,25 +1,29 @@
 .carouselItem {
     display: flex;
-    align-items: stretch; /* Ensure child elements stretch to the full height */
+    align-items: stretch;
     justify-content: space-between;
     width: 100%;
-    height: 100%; /* Make the item take the full height of the carousel */
+    height: 100%;
   }
   
   .featuresSection {
-    flex: 0.3; /* Adjust width */
+    flex: 0.3; 
     padding: 20px;
     color: #fff;
-    background-color: #221f20; /* Semi-transparent background */
+    background-color: #221f20; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically center the content */
-    height: 100%; /* Ensure it takes the full height */
+    justify-content: center; 
+    height: 100%; 
   }
   
   .featuresSection h3 {
-    font-size: 1.2rem; /* Adjust heading size */
+    font-size: 1.2rem; 
     margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
   }
   
   .featuresSection ul {
