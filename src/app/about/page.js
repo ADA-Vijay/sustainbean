@@ -141,7 +141,7 @@ function Page() {
           <div className="col-lg-6 position-relative">
             <div className="d-none d-xl-block position-absolute top-100 start-0 translate-middle"></div>
             <img
-              className="img-fluid rounded h-100 w-100"
+              className="img-fluid rounded w-100"
               src="https://fama.b-cdn.net/sustainbean/teamProfile1.webp"
               srcSet=""
               sizes=""
@@ -177,23 +177,32 @@ function Page() {
                       <div className="lc-block">
                         <div editable="rich">
                           <p className="rfs-8 text-muted">
-                          &quot;At the heart of our organization are individuals
-                            who envisioned a better future for all and took bold
-                            steps to turn that vision into a reality.&quot;
+                            &quot;The story of Sustain-A-Bean began not just
+                            with an idea, but with a shared moment of
+                            realization between us, Jason Nana Yaw Mohan and
+                            Vanya Daryanani. To an outsider, our worlds might
+                            have seemed vastly different—Jason, a healthcare
+                            leader with deep roots in Ghana’s pharmaceutical
+                            industry, and Vanya, a financial trader and wellness
+                            expert who had traveled the globe, building her
+                            career in diverse industries.&quot;
                           </p>
                         </div>
                         <div editable="rich">
                           <p className="rfs-8 text-muted">
-                            With over 15 years of experience in humanitarian
-                            work, Vanya has always been passionate about creating
-                            lasting change in underprivileged communities. Her
-                            journey began when he volunteered at local shelters
-                            during college, and she has since dedicated his life
-                            to advocating for human rights, education, and
-                            health care access for all. Under his leadership,
-                            the NGO has reached over 50,000 people across
-                            multiple countries, providing essential services and
-                            opportunities for a brighter future.
+                            But it was a visit to a cocoa farm in Ghana that
+                            brought us together, where the seeds of
+                            Sustain-A-Bean were planted. That day, standing in
+                            the fields, we were not just observing the land; we
+                            were witnessing the heart of an industry that fuels
+                            a global craving for chocolate. Yet, behind the
+                            sweetness of this delicacy, we saw the bitter
+                            reality: the farmers who toiled day and night, whose
+                            hands had cultivated the land for generations, were
+                            not reaping the rewards of their labor. We heard
+                            stories of struggle, where families fought for fair
+                            wages, access to education, and basic resources. It
+                            was clear to us that something had to change.
                           </p>
                         </div>
                       </div>

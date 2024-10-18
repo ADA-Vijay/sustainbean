@@ -63,25 +63,7 @@ const Navbar = () => {
 
         <div className={styles.bottomSection}>
           <ul className={styles.navLinks}>
-            <li>
-              <Link href="/business">OUR STORY</Link>
-            </li>
-            <li>
-              <Link href="/interviews">OUR IMPACT</Link>
-            </li>
-
-            <li className={styles.navItem}>
-              <Link href="/awards">GET INVLOVED</Link>
-              <ul className={styles.dropdown}>
-                <li className={styles.option}>
-                  <Link href="/awards/2023">2023 Awards</Link>
-                </li>
-                <li className={styles.option}>
-                  <Link href="/awards/2024">2024 Awards</Link>
-                </li>
-              </ul>
-            </li>
-            <li className={styles.navItem}>
+          <li className={styles.navItem}>
               <Link href="/about">ABOUT US</Link>
             </li>
             <li className={styles.navItem}>
@@ -98,6 +80,27 @@ const Navbar = () => {
             <li className={styles.navItem}>
               <Link href="/contact">CONTACT</Link>
             </li>
+            <li className={styles.navItem}>
+              <Link href="/awards">GET INVLOVED</Link>
+              <ul className={styles.dropdown}>
+                <li className={styles.option}>
+                  <Link href="/awards/2023">2023 Awards</Link>
+                </li>
+                <li className={styles.option}>
+                  <Link href="/awards/2024">2024 Awards</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link href="/business">OUR STORY</Link>
+            </li>
+           
+            <li>
+              <Link href="/interviews">OUR IMPACT</Link>
+            </li>
+
+           
+           
           </ul>
         </div>
       </nav>
