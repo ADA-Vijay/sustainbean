@@ -2,17 +2,20 @@
 .text1imgdiv{
     /* border: 2px solid blue; */
     width: 50%;
+    height: 35rem;
   }
   .text2imgdiv{
     /* border: 2px solid red; */
     width: 50%;
+    font-size: 19px;
   
   }
   .flextextdiv{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap:3rem;
     align-items: center;
+    padding-top: 3rem;
   }
   .insideimg1{
     width: 100%;
@@ -28,3 +31,18 @@
     padding: 10px;
     text-align: center;
   }
+.initiativeWrapper{
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.spantext1{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.schoolspantext{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
