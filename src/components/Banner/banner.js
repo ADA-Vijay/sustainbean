@@ -26,31 +26,31 @@ const Banner = () => {
 
   const images = [
     {
-      src: "https://fama.b-cdn.net/sustainbean/sb-banner1.webp",
+      src: "https://fama.b-cdn.net/sustainbean/carousel4.jpg",
       features: {
-        title: "Making a difference together",
+        title: "Sustain-A-Bean",
       },
     },
     {
-      src: "https://fama.b-cdn.net/sustainbean/sb-banner2.webp",
-      features: {
-        title: "Empowering, Uplifting, Sustainability",
-      },
-    },
-    {
-      src: "https://fama.b-cdn.net/sustainbean/sb-banner3.webp",
+      src: "https://fama.b-cdn.net/sustainbean/carousel3.jpg",
       features: {
         title: "From soil to soul",
       },
     },
     {
-      src: "https://fama.b-cdn.net/sustainbean/sb-banner4.webp",
+      src: "https://fama.b-cdn.net/sustainbean/carousel2.jpg",
       features: {
-        title: "Sustain-A-Bean",
+        title: "Empowering, Uplifting, Sustainability",
+      },
+    },
+    {
+      src: "https://fama.b-cdn.net/sustainbean/carousel1.jpg",
+      features: {
+        title: "Making a difference together",
       },
     },
   ];
-  
+
   return (
     <Carousel
       responsive={responsive}

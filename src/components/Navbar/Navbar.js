@@ -51,7 +51,8 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <div className={styles.topSection}>
           <div className={styles.menuIcon}>
-            <i className="fa fa-bars"></i>
+            {/* <i className="fa fa-bars"></i> */}
+            <img src="logo.png" alt="" className={styles.logoImage}/>
           </div>
 
           <div className={styles.logo}>
