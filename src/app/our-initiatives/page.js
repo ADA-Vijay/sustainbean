@@ -4,8 +4,19 @@ import React from "react";
 import style from "@/app/our-initiatives/our-initiatives.module.css";
 const Page = () => {
   return (
+
+    <>
+    <div className={`${ style.bannerbackgroundimg}`}>
+    <img
+                src="https://fama.b-cdn.net/sustainbean/carousel2.jpg"
+                alt=""
+                className={style.insidebannerbackgroundimg}
+              />
+    </div>
     <div>
+    
       <div className={`container-fluid ${style.initiativeWrapper}`}>
+        
         <div className={style.innersection1}>
           <h1 className={`text-center pt-4 ${style.subcribeTitle}`}>
             OUR INITIATIVES
@@ -228,7 +239,7 @@ const Page = () => {
               <p className={style.textpara1}>
                 Overview: Empowerment is about giving individuals the tools,
                 resources, and confidence to improve their lives and contribute
-                to their communities. Sustain-a-Bean’s initiatives focus on
+                to their communities. Sustain-a-Bean&apos;s initiatives focus on
                 empowering women, youth, and community leaders.
               </p>
               <ul>
@@ -274,7 +285,7 @@ const Page = () => {
                   their overall well-being and long-term opportunities
                 </li>
                 <li className={style.textpara1}>
-                  <span className={`${style.schoolspantext}`}>       Conduct Women’s Entrepreneurship Workshops : </span> Provide
+                  <span className={`${style.schoolspantext}`}>       Conduct Women&apos;s Entrepreneurship Workshops : </span> Provide
                   training sessions on business management, marketing, and
                   financial planning specifically for women, helping them start
                   and grow their own businesses.
@@ -327,7 +338,7 @@ const Page = () => {
                 </li>
 
                 <li className={style.textpara1}>
-                  <span className={`${style.schoolspantext}`}>       Women’s Cocoa Co-operatives: </span>Sustain-A-Bean supports the
+                  <span className={`${style.schoolspantext}`}>       Women&apos;s Cocoa Co-operatives: </span>Sustain-A-Bean supports the
                   formation of women-led cooperatives focused on cocoa
                   processing and other value-added products, empowering women
                   economically and creating sustainable income streams. (natural
@@ -356,6 +367,7 @@ const Page = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
