@@ -28,8 +28,9 @@
     font-family: sans-serif;
     font-weight: 500;
     color: grey;
-    padding: 10px;
+    padding-top: 15px;
     text-align: center;
+    
   }
 .initiativeWrapper{
   padding-left: 3rem !important;
