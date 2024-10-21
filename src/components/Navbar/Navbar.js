@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.logo}>
-            <span >SUSTAIN A BEAN</span>
+            <span>SUSTAIN A BEAN</span>
           </div>
 
           <div className={styles.rightSection}></div>
@@ -63,12 +63,30 @@ const Navbar = () => {
 
         <div className={styles.bottomSection}>
           <ul className={styles.navLinks}>
-          <li className={styles.navItem}>
+            <li className={styles.navItem}>
               <Link href="/about">ABOUT US</Link>
             </li>
-            {/* <li className={styles.navItem}>
-              <Link href="/initiatives">OUR INITIATIVES</Link>
-            </li> */}
+
+            <li className={styles.navItem}>
+              <Link href="/our-initiatives">OUR INITIATIVES</Link>
+              <ul className={styles.dropdown}>
+                <li className={styles.option}>
+                  <Link href="/our-initiatives#education">Education</Link>
+                </li>
+                <li className={styles.option}>
+                  <Link href="/our-initiatives#wash"> WASH</Link>
+                </li>
+                <li className={styles.option}>
+                  <Link href="/our-initiatives#agriculture">Agricultural</Link>
+                </li>
+                <li className={styles.option}>
+                  <Link href="/our-initiatives#health-and-nutrtitions">Health and Nutrition</Link>
+                </li>
+                <li className={styles.option}>
+                  <Link href="/our-initiatives#women-empowerment">Women Empowerment</Link>
+                </li>
+              </ul>
+            </li>
             <li className={styles.navItem}>
               <Link href="/donation">DONATE</Link>
             </li>
@@ -94,13 +112,10 @@ const Navbar = () => {
             <li>
               <Link href="/business">OUR STORY</Link>
             </li>
-           
+
             <li>
               <Link href="/interviews">OUR IMPACT</Link>
             </li>
-
-           
-           
           </ul>
         </div>
       </nav>

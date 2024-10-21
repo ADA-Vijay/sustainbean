@@ -1,0 +1,30 @@
+/* our initiatives */
+.text1imgdiv{
+    /* border: 2px solid blue; */
+    width: 50%;
+  }
+  .text2imgdiv{
+    /* border: 2px solid red; */
+    width: 50%;
+  
+  }
+  .flextextdiv{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+  .insideimg1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 1px;
+    object-fit: cover;
+  }
+  .textpara1{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+  }

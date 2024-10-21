@@ -50,7 +50,7 @@ const Banner = () => {
       },
     },
   ];
-
+  
   return (
     <Carousel
       responsive={responsive}
