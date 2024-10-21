@@ -85,7 +85,7 @@ const Page = () => {
               </p>
               <p className={style.textpara1}>
                 Overview: Health is a critical component of a thriving
-                community. Sustain-a-Bean's health initiatives aim to improve
+                community. Sustain-a-Bean&apos;s health initiatives aim to improve
                 access to healthcare services, promote healthy living, and
                 ensure the well-being of all community members.
               </p>
@@ -274,12 +274,12 @@ const Page = () => {
                   </ul>
                 </li>
                 <li className={style.textpara1}>
-                  <span className={`${style.schoolspantext}`}>      Pad a Girl: </span>"Pad a Girl" is an initiative by Sustain-a-Bean
+                  <span className={`${style.schoolspantext}`}>      Pad a Girl: </span>&quot;Pad a Girl&quot; is an initiative by Sustain-a-Bean
                   focused on empowering young girls by providing access to
                   menstrual hygiene products. The project aims to address period
                   poverty, ensuring that girls do not miss school due to a lack
                   of sanitary pads. By distributing eco-friendly, reusable pads,
-                  the initiative not only supports girls' education but also
+                  the initiative not only supports girls&apos; education but also
                   promotes sustainability. It empowers girls to manage their
                   menstruation with dignity and confidence, contributing to
                   their overall well-being and long-term opportunities
