@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 function page() {
   return (
-    <div>
+    <div style={{backgroundColor: "#fff3e3"}}>
         <div style={{
             backgroundImage: 'url("blog-banner.png")',
             backgroundPosition: "center",
@@ -10,6 +10,7 @@ function page() {
             height: "75vh", // Full viewport height
             width: "100%", // Full width
             position: "relative",
+            
           }}>
 
 
