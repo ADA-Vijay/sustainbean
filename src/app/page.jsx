@@ -94,7 +94,7 @@ export default function Home() {
         className="featured-section overlay-color-2 impactStories"
         style={{
           backgroundImage:
-            "url('https://themewagon.github.io/givehope/images/bg_3.jpg')",
+            "url('https://fama.b-cdn.net/sustainbean/initBanner1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative",
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6">
               <img
-                src="https://themewagon.github.io/givehope/images/bg_3.jpg"
+                src="https://fama.b-cdn.net/sustainbean/initBanner1.jpg"
                 alt="Image placeholder"
                 className="img-fluid"
               />
@@ -296,7 +296,7 @@ export default function Home() {
         className="featured-section overlay-color-2 impactStories"
         style={{
           backgroundImage:
-            "url('https://themewagon.github.io/givehope/images/bg_3.jpg')",
+            "url('https://fama.b-cdn.net/sustainbean/initBanner2.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative",
@@ -320,8 +320,8 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6">
               <img
-                src="https://themewagon.github.io/givehope/images/bg_2.jpg"
-                alt="Image placeholder"
+                src="https://fama.b-cdn.net/sustainbean/initBanner2.jpg"
+                alt="Image placeholder"x
                 className="img-fluid"
               />
             </div>
